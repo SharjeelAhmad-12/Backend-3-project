@@ -42,11 +42,4 @@ app.listen(3000, () => {
   console.log("Server Started");
 });
 
-// app.get('/getUserById', (req, res) => {
-//     const user = usersList.filter(user => user.id === parseInt(req.query.id) || user.name === req.query.name);
-//     res.send(user)
-// })
 
-// app.put('put-books',function (req,res) {
-//     res.send({message:"put",books})
-// })
